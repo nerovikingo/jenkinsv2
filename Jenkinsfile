@@ -1,5 +1,5 @@
 pipeline {
-   agent { node { label 'qa'} }
+   agent { node { label 'qa-v2'} }
 
    stages {
        stage('primera_prueba') {
