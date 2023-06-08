@@ -1,7 +1,7 @@
 pipeline {
    agent { node { 
 	   	label 'qa-v2'
-	   	customWorkspace '/home/cicd/testjj'
+	   	customWorkspace '/var/www/qa/jenkinsv2'
    } 
 	 }
 
