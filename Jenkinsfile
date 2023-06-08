@@ -6,8 +6,8 @@ pipeline {
            steps {
              dir("/home/reguser/jenkinsv2/") {
 	       sh 'pwd'
+               sh 'touch alpha+$(date +"%Y%m%d%H%M")'
 	     } 
-             sh 'touch alpha+$(date +"%Y%m%d%H%M")'
 	     }
        }        
            }
