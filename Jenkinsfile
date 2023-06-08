@@ -4,7 +4,7 @@ pipeline {
    stages {
        stage('primera_prueba') {
            steps {
-             dir("/var/www/qa/jenkinsv2/") {
+             dir("/home/reguser/jenkinsv2/") {
 	       sh 'pwd'
 	     } 
              sh 'touch alpha+$(date +"%Y%m%d%H%M")'
